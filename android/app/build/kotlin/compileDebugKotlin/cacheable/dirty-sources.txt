@@ -1,0 +1,1 @@
+/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/kotlin/com/shahul/qibla_finder_flutter/MainActivity.kt

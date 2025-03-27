@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shahul.qibla_finder_flutter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:2:5-66
+11-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:3:5-78
+12-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:4:5-80
+13-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:5:5-65
+14-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:5:22-63
+15    <!--
+16         Required to query activities that can process text, see:
+17         https://developer.android.com/training/package-visibility and
+18         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+19
+20         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+21    -->
+22    <queries>
+22-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:44:5-49:15
+23        <intent>
+23-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:45:9-48:18
+24            <action android:name="android.intent.action.PROCESS_TEXT" />
+24-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:46:13-72
+24-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:46:21-70
+25
+26            <data android:mimeType="text/plain" />
+26-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:47:13-50
+26-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:47:19-48
+27        </intent>
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.10.1] /Users/SHAHUL/.gradle/caches/8.10.2/transforms/7cd09c921cbc0cae2b862cc28f69900e/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+31        android:name="com.shahul.qibla_finder_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.10.1] /Users/SHAHUL/.gradle/caches/8.10.2/transforms/7cd09c921cbc0cae2b862cc28f69900e/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.10.1] /Users/SHAHUL/.gradle/caches/8.10.2/transforms/7cd09c921cbc0cae2b862cc28f69900e/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.shahul.qibla_finder_flutter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.10.1] /Users/SHAHUL/.gradle/caches/8.10.2/transforms/7cd09c921cbc0cae2b862cc28f69900e/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.10.1] /Users/SHAHUL/.gradle/caches/8.10.2/transforms/7cd09c921cbc0cae2b862cc28f69900e/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+35
+36    <application
+37        android:name="android.app.Application"
+37-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:9:9-42
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.10.1] /Users/SHAHUL/.gradle/caches/8.10.2/transforms/7cd09c921cbc0cae2b862cc28f69900e/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+39        android:extractNativeLibs="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:10:9-43
+41        android:label="Qibla Finder" >
+41-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:8:9-37
+42        <activity
+42-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:11:9-32:20
+43            android:name="com.shahul.qibla_finder_flutter.MainActivity"
+43-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:12:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:17:13-163
+45            android:exported="true"
+45-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:13:13-36
+46            android:hardwareAccelerated="true"
+46-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:18:13-47
+47            android:launchMode="singleTop"
+47-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:14:13-43
+48            android:taskAffinity=""
+48-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:15:13-36
+49            android:theme="@style/LaunchTheme"
+49-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:16:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:19:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:24:13-27:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:25:15-70
+60                android:resource="@style/NormalTheme" />
+60-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:26:15-52
+61
+62            <intent-filter>
+62-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:28:13-31:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:29:17-68
+63-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:29:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:30:17-76
+65-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:30:27-74
+66            </intent-filter>
+67        </activity>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+72-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:35:9-37:33
+73            android:name="flutterEmbedding"
+73-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:36:13-44
+74            android:value="2" />
+74-->/Users/SHAHUL/AndroidStudioProjects/qibla_finder_flutter/android/app/src/main/AndroidManifest.xml:37:13-30
+75    </application>
+76
+77</manifest>
